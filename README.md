@@ -1,2 +1,2 @@
 # smalleditor
-Simple text editor using wxPython widgets
+Simple text editor using wxPython widgets and python language
