@@ -8,7 +8,7 @@ class MyFrame(wx.Frame):
 		fileMenu=wx.Menu()
 		menuAbout=fileMenu.Append(wx.ID_ABOUT,"&about")
 		fileMenu.AppendSeparator()
-		menuOpen=fileMenu.Append(wx.ID_OPEN,"&Open")
+		menuOpen=fileMenu.Append(wx.ID_OPEN,"&Open",'',wx.ITEM_CHECK)
 		fileMenu.AppendSeparator()
 		menuSaveAs=fileMenu.Append(wx.ID_ANY,"&SaveAs")
 		fileMenu.AppendSeparator()
